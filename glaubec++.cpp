@@ -1,10 +1,13 @@
 #include <iostream>
 
 using namespace std;
+int main(){
 
-int main(int argc, char const *argv[])
-{
-    cout << "Hello World!";
-    return 0;
+ int idade;
+  cout << "Qual a sua idade? ";
+  cin >> idade;
+  cout << "Você tem" << idade << "anos";
+
+  system("pause");
+  return 0;
 }
-
